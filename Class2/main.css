@@ -6,7 +6,8 @@ body {
     background-color: salmon;
     width: 100%;
     min-height: 300px;
-} 
+}
+
 
 nav.navbar {
     background-color: darkseagreen;
@@ -39,14 +40,38 @@ nav.navbar a {
 
 @media(min-width: 768px){
     .container{
-        background-color: dodgerblue;
+        background-color: yellow;
         width: 750px;
         margin: 0px auto;
     }
-    nav.navbar li {
-        display: inline-block;
-    } 
-}
+    nav.navbar {
+        background-color: yellowgreen;
+        width: 100%;
+        padding: 10px 0px;
+    }
+    
+    nav.navbar ul{
+        list-style: none;
+        padding-left: 0px;
+        margin: 0px;
+        text-align: center;
+        
+    }
+    
+    nav.navbar li{
+        border-bottom: 2px solid darkgreen;
+    }
+    
+    nav.navbar li:last-child{
+        border-bottom: none;
+    }
+    
+    nav.navbar a {
+        font-size: 22px;
+        line-height: 36px;
+        text-decoration: none;
+        color:darkgreen;
+    }
 
 
 
@@ -54,5 +79,34 @@ nav.navbar a {
     .container{
         width: 960px;
         background-color:   plum;
+        width: 750px;
+        margin: 0px auto;
     }
-}
+    nav.navbar {
+        background-color: bisque;
+        width: 100%;
+        padding: 10px 0px;
+    }
+    
+    nav.navbar ul{
+        list-style: none;
+        padding-left: 0px;
+        margin: 0px;
+        text-align: center;
+        
+    }
+    
+    nav.navbar li{
+        border-bottom: 2px solid violet;
+    }
+    
+    nav.navbar li:last-child{
+        border-bottom: none;
+    }
+    
+    nav.navbar a {
+        font-size: 22px;
+        line-height: 36px;
+        text-decoration: none;
+        color:violet;
+    }
