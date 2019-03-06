@@ -100,7 +100,7 @@ body {font-family: 'Ubuntu Condensed', sans-serif;font-size: 15px; text-align: c
 
 
 nav.navbar {
-    background-color: darkseagreen;
+    background-color: oldlace;
     width: 100%;
     padding: 10px 0px;
 }
@@ -114,7 +114,7 @@ nav.navbar ul{
 }
 
 nav.navbar li{
-    border-bottom: 2px solid darkred;
+    border-bottom: 2px solid violet;
 }
 
 nav.navbar li:last-child{
@@ -125,7 +125,7 @@ nav.navbar a {
     font-size: 22px;
     line-height: 36px;
     text-decoration: none;
-    color: darkred;
+    color: violet;
 }
 
 .active {
@@ -135,7 +135,7 @@ nav.navbar a {
 @media(min-width: 768px){
 
     nav.navbar {
-        background-color: yellowgreen;
+        background-color: oldlace;
         width: 100%;
         padding: 10px 0px;
     }
@@ -149,7 +149,7 @@ nav.navbar a {
     }
     
     nav.navbar li{
-        border-right: 2px solid darkgreen;
+        border-right: 2px solid violet;
         display: inline-block;
         border-bottom: none;
         padding: 0px 10px;
@@ -164,14 +164,14 @@ nav.navbar a {
         font-size: 22px;
         line-height: 36px;
         text-decoration: none;
-        color:darkgreen;
+        color:violet;
     }
 
 
 
 @media(min-width: 992px){}
     nav.navbar {
-        background-color: bisque;
+        background-color: oldlace;
         width: 100%;
         padding: 10px 0px;
     }
