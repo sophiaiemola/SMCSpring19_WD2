@@ -1,6 +1,8 @@
+
+body {font-family: 'Ubuntu Condensed', sans-serif;font-size: 15px; text-align: center;}
+
 .container {
     background-color: oldlace;
-
 }
 
 .red {
@@ -97,3 +99,105 @@
 }
 
 
+nav.navbar {
+    background-color: darkseagreen;
+    width: 100%;
+    padding: 10px 0px;
+}
+
+nav.navbar ul{
+    list-style: none;
+    padding-left: 0px;
+    margin: 0px;
+    text-align: center;
+    
+}
+
+nav.navbar li{
+    border-bottom: 2px solid darkred;
+}
+
+nav.navbar li:last-child{
+    border-bottom: none;
+}
+
+nav.navbar a {
+    font-size: 22px;
+    line-height: 36px;
+    text-decoration: none;
+    color: darkred;
+}
+
+.active {
+    font-weight: 700;
+}
+
+@media(min-width: 768px){
+
+    nav.navbar {
+        background-color: yellowgreen;
+        width: 100%;
+        padding: 10px 0px;
+    }
+    
+    nav.navbar ul{
+        list-style: none;
+        padding-left: 0px;
+        margin: 0px;
+        text-align: center;
+        
+    }
+    
+    nav.navbar li{
+        border-right: 2px solid darkgreen;
+        display: inline-block;
+        border-bottom: none;
+        padding: 0px 10px;
+    }
+    
+    nav.navbar li:last-child{
+        border-bottom: none;
+        border-right: none;
+    }
+    
+    nav.navbar a {
+        font-size: 22px;
+        line-height: 36px;
+        text-decoration: none;
+        color:darkgreen;
+    }
+
+
+
+@media(min-width: 992px){}
+    nav.navbar {
+        background-color: bisque;
+        width: 100%;
+        padding: 10px 0px;
+    }
+    
+    nav.navbar ul{
+        list-style: none;
+        padding-left: 0px;
+        margin: 0px;
+        text-align: center;
+        
+    }
+    
+    nav.navbar li{
+        border-right: 2px solid violet;
+        display: inline-block;
+        border-bottom: none;
+        padding: 0px 10px;
+    }
+    
+    nav.navbar li:last-child{
+        border-bottom: none;
+    }
+    
+    nav.navbar a {
+        font-size: 22px;
+        line-height: 36px;
+        text-decoration: none;
+        color:violet;
+    }
