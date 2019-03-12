@@ -1,0 +1,37 @@
+.content{
+    padding: 10px 10px 10px 10px;
+    min-height: 690px;
+    border-bottom: 2px solid green;
+    position: relative;
+    align-content: center;
+}
+
+.content .img-container {
+    min-height: 160px;
+}
+
+.content img {
+    max-width: 100%;
+}
+
+.content .abs-pos {
+    position: absolute;
+}
+
+#DesanoOverlap{
+    top: 400px;
+}
+
+#DesanoTitle{
+    top: 250px;
+    right:20px;
+    color: whitesmoke;
+    text-shadow: 1px 0px 4px darkblue;
+}
+
+#DesanoPizzaTitle{
+    top: 475px;
+    left:30px;
+    color: whitesmoke;
+    text-shadow: 1px 0px 4px darkblue;
+}
