@@ -1,0 +1,17 @@
+h2 {
+    text-align: center;}
+
+img.align-center {
+    display: block;
+    margin: 0px auto;}
+}
+
+img.hero {
+    align-content: center;}
+
+img.logo {
+    align-content: center;
+    height: 40px; 
+}
+
+
