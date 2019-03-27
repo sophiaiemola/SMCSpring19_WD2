@@ -26,11 +26,11 @@ body {
 
 img.roaster{
     height: 150px;
-    margin: 10px 10px 10px 10px;
 }
 
 .container-about{
-    padding: 0px 10px;
+    margin-left: 15px;
+    margin-right: 15px; 
     background-color: white;
     text-align: left; 
 }
@@ -38,8 +38,7 @@ img.roaster{
 .content{
     margin: 0px 10px;
     position: relative;
-    text-align: justify;
-    align-content: center'
+    align-content: center;
 }
 
 .content-columnleft{
