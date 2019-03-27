@@ -1,3 +1,19 @@
+.content{
+    padding: 0px 10px;
+    min-height: 690px;
+    border-bottom: 2px solid green;
+    position: relative;
+    align-content: center;
+}
+
+.roasters{
+    padding: 10px 10px 10px 10px;
+    min-height: 350px;
+    border-bottom: 2px solid maroon;
+    position: relative;
+    align-content: center;
+}
+
 h2 {
     text-align: center;}
 
@@ -6,12 +22,26 @@ img.align-center {
     margin: 0px auto;}
 }
 
+img.align-left {
+    float: left;
+    margin-right: 10px;}
+}
+
+img.medium {
+    width: 150px;
+    height: 150px;}
+}
+
 img.hero {
     align-content: center;}
 
 img.logo {
     align-content: center;
-    height: 40px; 
+    height: 60px; 
+}
+
+#padding-about {
+    margin: 0px 20px 0px 20px;}
 }
 
 

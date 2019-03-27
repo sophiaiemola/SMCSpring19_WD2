@@ -1,0 +1,256 @@
+body {
+    margin: 0px;
+    font-family: 'Ubuntu Condensed', sans-serif;font-size: 15px; text-align: center;
+}
+
+.container{
+    margin: auto;
+    background-color: white;
+    padding-right: 10px 10px 10px;
+    min-height: 375px;
+    float: left;
+}
+
+.container-roasters{
+    margin: auto;
+    background-color: white;
+    padding-right: 10px 10px 10px;
+    min-height: 300px;
+}
+
+.content-roasters{
+    padding: 0px 10px;
+    align-content: center;
+    border-bottom: 2px solid maroon;
+}
+
+img.roaster{
+    height: 150px;
+    margin: 10px 10px 10px 10px;
+}
+
+.container-about{
+    margin: auto;
+    background-color: white;
+    text-align: left; 
+}
+
+.content{
+    margin: 20px;
+    position: relative;
+    text-align: justify;
+}
+
+.content-about{
+    margin: 20px;
+    position: relative;
+    text-align: justify;
+}
+
+#vertCenter1,
+#vertCenter2,
+#vertHorizCenter1 {
+    height: 200px;
+}
+#Lorem1 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0px; /* MARGINS affect the centering in this method! */
+}
+
+.img-container{
+    margin: auto;
+    position: relative;
+}
+
+#img{
+    height: 200px;
+    align-content: right
+}
+
+.floater-section {
+    float: left;
+    width: 100%;
+    min-height: 200px;
+    margin-bottom: 20px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+img.logo {
+    float: left;
+    height: 30px; 
+    padding: 15px;
+}
+
+nav.navbar {
+    background-color: darkseagreen;
+    width: 100%;
+    padding: 10px 0px;
+}
+
+nav.navbar ul{
+    list-style: none;
+    padding-left: 0px;
+    margin: 0px;
+    text-align: center;
+}
+
+nav.navbar li{
+    border-bottom: 2px solid darkred;
+}
+
+nav.navbar li:last-child{
+    border-bottom: none;
+}
+
+nav.navbar a {
+    font-size: 22px;
+    line-height: 36px;
+    text-decoration: none;
+    color: darkred;
+}
+
+.active {
+    font-weight: 700;
+}
+
+@media(min-width: 768px){
+
+    nav.navbar {
+        background-color: yellowgreen;
+        width: 100%;
+        padding: 10px 0px;
+    }
+    
+    nav.navbar ul{
+        list-style: none;
+        padding-left: 0px;
+        margin: 0px;
+        text-align: center;
+        
+    }
+    
+    nav.navbar li{
+        border-right: 2px solid darkgreen;
+        display: inline-block;
+        border-bottom: none;
+        padding: 0px 10px;
+    }
+    
+    nav.navbar li:last-child{
+        border-bottom: none;
+        border-right: none;
+    }
+    
+    nav.navbar a {
+        font-size: 22px;
+        line-height: 36px;
+        text-decoration: none;
+        color:darkgreen;
+    }
+
+@media(min-width: 992px){
+
+    nav.navbar {
+        background-color: bisque;
+        width: 100%;
+        padding: 10px 0px;
+    }
+    
+    nav.navbar ul{
+        list-style: none;
+        padding-left: 0px;
+        margin: 0px;
+        text-align: center;
+        
+    }
+    
+    nav.navbar li{
+        border-right: 2px solid violet;
+        display: inline-block;
+        border-bottom: none;
+        padding: 0px 10px;
+    }
+    
+    nav.navbar li:last-child{
+        border-bottom: none;
+    }
+    
+    nav.navbar a {
+        font-size: 22px;
+        line-height: 36px;
+        text-decoration: none;
+        color:violet;
+    }
+
+    /******************************SMALL SCREEN**************************/
+@media (min-width: 450px){
+    .container-about {
+        width: 440px;
+    }
+    
+    .small-width-25 {
+    width: 25%;
+    }
+
+    .small-width-33 {
+    width: 33.33333%;
+    }
+
+    .small-width-50 {
+    width: 50%; 
+    padding: 50px 50px;
+    }
+
+    .small-width-100 {
+    width: 100%;
+    }   
+}
+
+/******************************MEDIUM SCREEN**************************/
+@media (min-width: 768px){
+    .container-about {
+        width: 760px;
+    }
+    .med-width-25 {
+    width: 25%;
+}
+
+    .med-width-33 {
+    width: 33.333%;
+}
+
+    .med-width-50 {
+    width: 50%;
+    }
+
+    .med-width-100 {
+    width: 100%;
+    }
+}
+
+/******************************LARGE SCREEN**************************/
+@media (min-width: 992px){
+    .container-about {
+        width: 500px;
+    }
+    
+    .large-width-25 {
+        width: 25%;
+    }
+    
+    .large-width-33 {
+        width: 33.333%;
+    }
+
+    .large-width-50 {
+    width: 50%;
+    }
+
+    .large-width-100 {
+    width: 100%;
+    }

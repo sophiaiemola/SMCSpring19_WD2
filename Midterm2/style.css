@@ -1,0 +1,25 @@
+.content-roasters{
+    padding: 0px 10px;
+    min-height: 690px;
+    position: relative;
+    align-content: center;
+}
+.menu{
+    padding: 10px 10px 10px 10px;
+    min-height: 350px;
+    border-bottom: 2px solid maroon;
+    position: relative;
+    align-content: center;
+}
+
+.content-roasters .img-container {
+    min-height: 160px;
+}
+
+.content-roasters img {
+    max-width: 100%;
+}
+
+.content-roasters .abs-pos {
+    position: absolute;
+}
