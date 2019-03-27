@@ -1,6 +1,6 @@
 body {
     margin: 0px;
-    font-family: 'Ubuntu Condensed', sans-serif;font-size: 15px; text-align: center;
+    font-family: 'Ubuntu Condensed', Helvetica, sans-serif;font-size: 15px; text-align: center;
 }
 
 .container{
@@ -30,19 +30,34 @@ img.roaster{
 }
 
 .container-about{
-    margin: auto;
+    padding: 0px 10px;
     background-color: white;
     text-align: left; 
 }
 
 .content{
-    margin: 20px;
+    margin: 0px 10px;
     position: relative;
     text-align: justify;
+    align-content: center'
+}
+
+.content-columnleft{
+    padding: 20px;
+    position: relative;
+    text-align: justify;
+    float: left;
+}
+
+.content-columnright{
+    padding: 20px;
+    position: relative;
+    text-align: justify;
+    float: left;
 }
 
 .content-about{
-    margin: 20px;
+    padding: 20px;
     position: relative;
     text-align: justify;
 }
@@ -61,12 +76,11 @@ img.roaster{
 
 .img-container{
     margin: auto;
-    position: relative;
+    float: center;
 }
 
 #img{
     height: 200px;
-    align-content: right
 }
 
 .floater-section {
@@ -87,7 +101,7 @@ img.logo {
 }
 
 nav.navbar {
-    background-color: darkseagreen;
+    background-color: #c49bbb;
     width: 100%;
     padding: 10px 0px;
 }
@@ -95,12 +109,9 @@ nav.navbar {
 nav.navbar ul{
     list-style: none;
     padding-left: 0px;
+    padding-right: 15px;
     margin: 0px;
-    text-align: center;
-}
-
-nav.navbar li{
-    border-bottom: 2px solid darkred;
+    text-align: right;
 }
 
 nav.navbar li:last-child{
@@ -111,7 +122,7 @@ nav.navbar a {
     font-size: 22px;
     line-height: 36px;
     text-decoration: none;
-    color: darkred;
+    color: #d1bce3;
 }
 
 .active {
@@ -129,13 +140,12 @@ nav.navbar a {
     nav.navbar ul{
         list-style: none;
         padding-left: 0px;
+        padding-right: 15px;
         margin: 0px;
-        text-align: center;
-        
+        text-align: right;
     }
     
     nav.navbar li{
-        border-right: 2px solid darkgreen;
         display: inline-block;
         border-bottom: none;
         padding: 0px 10px;
@@ -156,21 +166,21 @@ nav.navbar a {
 @media(min-width: 992px){
 
     nav.navbar {
-        background-color: bisque;
+        background-color: white;
         width: 100%;
-        padding: 10px 0px;
+        padding: 0px 10px 0px 1px;
     }
     
     nav.navbar ul{
         list-style: none;
         padding-left: 0px;
+        padding-right: 15px;
+        padding-top: 10px;
         margin: 0px;
-        text-align: center;
-        
+        text-align: right;
     }
     
     nav.navbar li{
-        border-right: 2px solid violet;
         display: inline-block;
         border-bottom: none;
         padding: 0px 10px;
@@ -184,7 +194,7 @@ nav.navbar a {
         font-size: 22px;
         line-height: 36px;
         text-decoration: none;
-        color:violet;
+        color:#c49bbb;
     }
 
     /******************************SMALL SCREEN**************************/
