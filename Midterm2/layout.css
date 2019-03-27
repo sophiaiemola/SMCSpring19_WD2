@@ -75,7 +75,7 @@ img.logo {
 }
 
 nav.navbar {
-    background-color: #c49bbb;
+    background-color: white;
     width: 100%;
     padding: 10px 0px;
 }
@@ -96,7 +96,7 @@ nav.navbar a {
     font-size: 22px;
     line-height: 36px;
     text-decoration: none;
-    color: #d1bce3;
+    color: #c49bbb;
 }
 
 .active {
@@ -106,7 +106,7 @@ nav.navbar a {
 @media(min-width: 768px){
 
     nav.navbar {
-        background-color: yellowgreen;
+        background-color:white;
         width: 100%;
         padding: 10px 0px;
     }
@@ -134,7 +134,7 @@ nav.navbar a {
         font-size: 22px;
         line-height: 36px;
         text-decoration: none;
-        color:darkgreen;
+        color:#c49bbb;
     }
 
 @media(min-width: 992px){
