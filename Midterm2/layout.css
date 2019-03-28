@@ -6,7 +6,6 @@ body {
 .container{
     margin: auto;
     background-color: white;
-    padding-right: 10px 10px 10px;
     min-height: 375px;
     float: left;
 }
@@ -25,11 +24,13 @@ img.roaster{
 .content{
     margin: 0px 10px;
     position: relative;
+    float: left;
     align-content: center;
 }
 
 .content-about{
-    margin-right: 15px;
+    margin-right: 20px;
+    margin-left: 20px;
     position: relative;
     text-align: left;
     float: left;
@@ -54,14 +55,14 @@ img.roaster{
 }
 
 #img{
-    height: 200px;
+    height: 350px;
 }
 
 .floater-section {
     float: left;
     width: 100%;
     min-height: 200px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .clearfix {
@@ -70,8 +71,8 @@ img.roaster{
 
 img.logo {
     float: left;
-    height: 30px; 
-    padding: 15px;
+    height: 40px; 
+    padding: 15px 15px;
 }
 
 nav.navbar {
@@ -86,6 +87,7 @@ nav.navbar ul{
     padding-right: 15px;
     margin: 0px;
     text-align: right;
+    color: #2f37e9;
 }
 
 nav.navbar li:last-child{
@@ -96,7 +98,7 @@ nav.navbar a {
     font-size: 22px;
     line-height: 36px;
     text-decoration: none;
-    color: #c49bbb;
+    color: #2f37e9;
 }
 
 .active {
@@ -134,10 +136,11 @@ nav.navbar a {
         font-size: 22px;
         line-height: 36px;
         text-decoration: none;
-        color:#c49bbb;
+        color:#2f37e9;
     }
+}
 
-@media(min-width: 992px){
+@media (min-width: 992px){
 
     nav.navbar {
         background-color: white;
@@ -168,9 +171,9 @@ nav.navbar a {
         font-size: 22px;
         line-height: 36px;
         text-decoration: none;
-        color:#c49bbb;
+        color:#2f37e9;
     }
-
+}
     /******************************SMALL SCREEN**************************/
 @media (min-width: 450px){
     .container-about {
@@ -238,3 +241,4 @@ nav.navbar a {
     .large-width-100 {
     width: 100%;
     }
+}
